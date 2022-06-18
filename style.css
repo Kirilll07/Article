@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #d4d4d4;
+}
+
+article {
+    width: 1000px;
+    margin: 40px auto;
+    padding: 20px 150px 60px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 16px black;
+}
+
+main {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+}
+
+h1, h2, h3 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo {
+    float: left;
+}
+
+.slogan {
+    float: right;
+    text-align: right;
+    width: 40%;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.7em;
+    color: #909090;
+}
+
+.clearfix::before,
+.clearfix::after,
+.block::before,
+.block::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after,
+.block::after {
+    clear: both;
+}
+
+.align_left {
+    float: left;
+    margin-right: 15px;
+}
+
+.align_right {
+    float: right;
+    margin-left: 15px;
+}
+
+.block {
+    padding: 30px;
+}
+
+.block:nth-child(odd) {
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+}
+
+.block img {
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+
+.block:first-child {
+    text-align: center;
+}
+
+.block:last-child {
+    text-align: center;
+}
+
+header {
+    padding: 30px 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.block {
+    box-shadow: 0 0 5px 3px red;
+}
+
+.logo {
+    box-shadow: 2px 2px 5px red;
+}
